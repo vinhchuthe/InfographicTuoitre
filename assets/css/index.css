@@ -40,7 +40,7 @@
   font-weight: 400;
 }
 
-.banner .banner-title img, .banner .banner-content .banner-logo img, .banner .banner-deco .banner-deco-left img, .banner .banner-deco .banner-deco-right img, .section1 .section1-content .s1-deco img, .section1 .section1-content .s1-context img, .section3 .section3-content .section3-deco img, .section5 .section5-content .s5-right .s5-deco img, .section5 .section5-content .s5-right .s5-number-gr .s5-number-title img, .section6 .s6-deco img, .section7 .s7-gr .s7-gr-row .s7-gr-item .s7-icon img, .footer img {
+.v-mb img, .banner .banner-title img, .banner .banner-content .banner-logo img, .banner .banner-deco .banner-deco-left img, .banner .banner-deco .banner-deco-right img, .section1 .section1-content .s1-deco img, .section1 .section1-content .s1-context img, .section3 .section3-content .section3-deco img, .section5 .section5-content .s5-right .s5-deco img, .section5 .section5-content .s5-right .s5-number-gr .s5-number-title img, .section6 .s6-deco img, .section7 .s7-gr .s7-gr-row .s7-gr-item .s7-icon img, .footer img {
   width: 100%;
   height: auto;
   display: block;
@@ -74,6 +74,23 @@
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   display: block !important;
+}
+
+.v-mb {
+  display: none;
+}
+
+.v-pc {
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .v-mb {
+    display: block;
+  }
+  .v-pc {
+    display: none;
+  }
 }
 
 .banner {

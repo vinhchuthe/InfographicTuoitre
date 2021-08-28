@@ -39,6 +39,27 @@ $dark-white: #f4f2f3;
     display: block !important;
 }
 
+.v-mb {
+    display: none;
+
+    img {
+        @extend %img;
+    }
+}
+
+.v-pc {
+    display: block;
+}
+
+@media (max-width: 1024px) {
+    .v-mb {
+        display: block;
+    }
+    .v-pc {
+        display: none;
+    }
+}
+
 // -------------- banner ----------------
 .banner {
     position: relative;
