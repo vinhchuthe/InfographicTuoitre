@@ -258,9 +258,9 @@ $dark-white: #f4f2f3;
                 margin-left: 250px;
             }
 
-            &.stroke-gr3 {
-                margin-left: -450px;
-            }
+            // &.stroke-gr3 {
+            //     margin-left: 130px;
+            // }
         }
     }
 }
@@ -1077,11 +1077,11 @@ $dark-white: #f4f2f3;
                 }
             }
 
-            &:last-child {
-                .s7-gr-item {
-                    border: unset;
-                }
-            }
+            // &:last-child {
+            //     .s7-gr-item {
+            //         border: unset;
+            //     }
+            // }
         }
 
         &::before {

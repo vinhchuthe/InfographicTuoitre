@@ -288,10 +288,6 @@
   margin-left: 250px;
 }
 
-.zone .zone-text .zone-text-gr.stroke-gr3 {
-  margin-left: -450px;
-}
-
 .section-inner {
   width: 96%;
   margin: auto;
@@ -1217,10 +1213,6 @@
   opacity: 1;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-}
-
-.section7 .s7-gr .s7-gr-row:last-child .s7-gr-item {
-  border: unset;
 }
 
 .section7 .s7-gr::before {

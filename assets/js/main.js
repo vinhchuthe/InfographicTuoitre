@@ -83,6 +83,32 @@ $(document).ready(function () {
         // .addIndicators()
         .addTo(controller);
 
+    new ScrollMagic.Scene({
+            triggerElement: '#img7',
+            // offset: -10,
+        })
+        .setTween(TweenMax.from($("#img7"), 0.5, {
+            opacity: 0,
+            // x: 0,
+            ease: Power2.easeInOut,
+            autoAlpha: 0
+        }))
+        // .addIndicators()
+        .addTo(controller);
+
+    new ScrollMagic.Scene({
+            triggerElement: '#img8',
+            // offset: -10,
+        })
+        .setTween(TweenMax.from($("#img8"), 0.5, {
+            opacity: 0,
+            // x: 0,
+            ease: Power2.easeInOut,
+            autoAlpha: 0
+        }))
+        // .addIndicators()
+        .addTo(controller);
+
     // section5
     var tl5 = new TimelineMax();
     tl5.staggerFrom($('.man-box--col'), 0.75, {
